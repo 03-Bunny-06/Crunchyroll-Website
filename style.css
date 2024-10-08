@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Josefin Sans';
+    color: white;
+    background-color: black;
+}
+
+.bg-image {
+    background-image: url('https://img1.ak.crunchyroll.com/i/spire2/a8fab827990f6ba4a2f1a95ff8594f841691419367_main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+    z-index: 1;
+}
+
+nav img:hover {
+    color: white;
+}
+
+.sticky-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.nav-bar-btn-1 {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-right: 15px;
+}
+
+.nav-bar-btn-1:hover {
+    color: black;
+    background-color: grey;
+    border: 2px solid grey;
+}
+
+.nav-bar-btn-2 {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.nav-bar-btn-2:hover {
+    color: white;
+}
+
+.top-div {
+    font-size: 20px;
+    margin: 70px;
+    background-color: transparent;
+}
+
+.top-main-heading {
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+.top-div-button {
+    background-color: #f9b718;
+    border: 2px solid #f9b718;
+    font-weight: 600;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.top-div-small {
+    font-size: 12px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.top-div-a {
+    color: #f37521;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.top-div-a:hover {
+    color: white;
+}
+
+.second-div {
+    background-color: transparent;
+}
+
+.div-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.second-div-title {
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    letter-spacing: -3px;
+}
+
+.second-div-sub-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.margin-btm {
+    margin-bottom: 30px;
+}
+
+.pricing-div-title {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: -3px;
+}
+
+.div-flex-row-cards {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+
+.item {
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+.cards-image-style {
+    width: 150px;
+    height: 220px;
+}
+
+.cards-title {
+    font-size: 12px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.para {
+    color: #5aa9a8;
+}
+
+.fa-clock {
+    color: #2bbdbc;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.fa-exclamation {
+    color: #f27522;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.fa-plane {
+    color: #f9b718;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.fa-desktop {
+    color: #538093;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.flex {
+    display: flex;
+}
+
+.div-image-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 65px;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.div-image-content i {
+    margin-right: 10px;
+}
+
+.tag-line-content {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.questions-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.question {
+    font-size: 35px;
+}
+
+.question-tag-line {
+    margin-top: 15px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+.a-question {
+    text-decoration: none;
+    color: #f37521;
+}
+
+.a-question:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.question-tag-line-2 {
+    font-size: 18px;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+footer p {
+    opacity: 0.5;
+}
+
+footer li:hover {
+    opacity: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.copy-right-crunch {
+    opacity: 1;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+
+select {
+    border: 0px solid black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+select:hover {
+    background-color: grey;
+}
+
+.flex-ro {
+    display: flex;
+    margin-left: 70px;
+}
+
+.flex-col {
+    background-color: #141519;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-div-button-1-3 {
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-div-button-2 {
+    background-color: #f9b718;
+    border: 2px solid #f9b718;
+    font-weight: 600;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-1 {
+    background-color: transparent;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.text-3 {
+    font-size: 10px;
+}
+
+.skip-text-4 {
+    background-color: transparent;
+    margin: 10px;
+}
+
+.final-text {
+    background-color: transparent;
+    margin: 20px;
+    text-align: center;
+}
