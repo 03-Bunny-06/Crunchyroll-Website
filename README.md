@@ -2,7 +2,7 @@
 
 Project Overview:
 
-This project is a Crunchyroll Clone designed to replicate the look and feel of the Crunchyroll streaming platform. It offers a responsive layout, interactive buttons, and styling to showcase popular anime titles and premium subscription plans. The clone uses HTML, CSS, and JavaScript to implement essential features and styles.
+This project is a Crunchyroll Clone designed to replicate the look and feel of the Crunchyroll streaming platform. It offers a responsive layout, interactive buttons, and styling to showcase popular anime titles and premium subscription plans. The clone uses HTML, CSS to implement essential features and styles.
 
 Features:
 Navigation Bar:
