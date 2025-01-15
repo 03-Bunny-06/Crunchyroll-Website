@@ -4,6 +4,8 @@ Project Overview:
 
 This project is a Crunchyroll Clone designed to replicate the look and feel of the Crunchyroll streaming platform. It offers a responsive layout, interactive buttons, and styling to showcase popular anime titles and premium subscription plans. The clone uses HTML, CSS to implement essential features and styles.
 
+<hr/>
+
 Features:
 Navigation Bar:
 * Sticky Navigation Bar: Includes a logo and buttons for LOG IN and EXPLORE.
@@ -25,6 +27,8 @@ Additional Features:
 * Offline Viewing Section: Highlights offline viewing capabilities.
 * Ad-Free Viewing: Promotes ad-free streaming on multiple devices.
 * Footer Navigation: Includes legal links, copyright, and language selection.
+
+<hr/>
   
 Technologies Used:
 * HTML: For structure and layout.
@@ -32,10 +36,14 @@ Technologies Used:
 * Integrated Google Fonts for custom typography.
 * FontAwesome for icons.
 
+<hr/>
+
 How to Run the Project:
 1. Clone the repository or download the files.
 2. Open the index.html file in your preferred browser.
 3. Ensure an active internet connection for linked resources (Google Fonts, FontAwesome, and external images).
+
+<hr/>
 
 Files and Folders:
 * index.html: Main HTML file for the layout and structure.
