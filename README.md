@@ -41,3 +41,6 @@ Files and Folders:
 * index.html: Main HTML file for the layout and structure.
 * style.css: CSS file for styling and responsiveness.
 * assets: External images and resources loaded via URLs.
+
+![image](https://github.com/user-attachments/assets/dca2bbae-940d-4a42-866a-98f7295d9afc)
+
