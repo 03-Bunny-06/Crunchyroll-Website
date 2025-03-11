@@ -63,3 +63,4 @@ This project is a **Crunchyroll Clone** designed to replicate the **look and fee
 
 ![image](https://github.com/user-attachments/assets/448bd985-4d19-450a-9038-558c7e7c5710)
 
+![image](https://github.com/user-attachments/assets/4df57e06-f815-4b89-a11d-42107b583550)
